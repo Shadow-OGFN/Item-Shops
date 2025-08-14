@@ -1,0 +1,15 @@
+How to make your own item shop!
+
+1: Go to item shop template in this repo
+2: Go to https://fortnite.gg and type in the cosmetic you want to put in that shop space
+3: Find the id of the cosmetic, it will look something like: CID_495_Athena_Commando_F_MechPilotShark
+4: Go back to the template and copy and paste the contents into a notepad document
+5: Find the place you want to put your cosmetic (For instance the first slot in featured)
+6: Where it says "itemGrants": ["AthenaCharacter:cid_001_athena_commando_m_default"], replace the cid_001_athena_commando_m_default or whatever character is in the template with your id
+7: Before you enter your id, make sure that the template looks like this per cosmetic:
+Skin : ["AthenaCharacter:yourskin"]
+Emote : ["AthenaDance:youremote"]
+Pickaxe : ["AthenaPickaxe:yourpickaxe"]
+Back Bling : ["AthenaBackpack:yourbackbling"]
+Wrap : ["AthenaItemWrap:yourwrap"]
+8: Thats pretty much it! Best shops will be used in Shadow's daily rotating item shop on release and you will get all the skins from the shops
